@@ -1,0 +1,9 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: homework
+  labels:
+    kubernetes.io/metadata.name: homework
+spec:
+  finalizers:
+    - kubernetes
